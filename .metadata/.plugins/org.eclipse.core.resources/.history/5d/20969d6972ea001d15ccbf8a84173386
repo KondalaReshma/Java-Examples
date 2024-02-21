@@ -1,0 +1,21 @@
+package object_oriented_programming;
+
+public class isPrimeNumber {
+	
+	int num;
+	 isPrimeNumber ( int num){
+		 this.num = num;
+	 }
+	 
+	boolean isPrime() {
+		for(int i = 2 ; i < num ;i++) {
+			if(num % i == 0)
+return false;
+		}
+		return true;
+		 
+	}
+	
+
+
+}

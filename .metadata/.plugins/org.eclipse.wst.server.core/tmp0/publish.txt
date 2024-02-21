@@ -1,0 +1,16 @@
+#Tomcat publish data
+#Fri Oct 27 12:54:11 IST 2023
+org.eclipse.jst.j2ee.server\:DemoSpringMVC=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\DemoSpringMVC
+org.eclipse.jst.j2ee.server\:DemoMVCEX=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\DemoMVCEX
+org.eclipse.jst.jee.server\:ServletEx=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\ServletEx
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\rkondala\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper\\9.0.12\\tomcat-jasper-9.0.12.jar=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\spring-mvc-form\\WEB-INF\\lib\\tomcat-jasper-9.0.12.jar
+org.eclipse.jst.jee.server\:FirstServlet=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\FirstServlet
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\rkondala\\.m2\\repository\\org\\springframework\\spring-web\\4.1.8.RELEASE\\spring-web-4.1.8.RELEASE.jar=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\DemoMVCEX\\WEB-INF\\lib\\spring-web-4.1.8.RELEASE.jar
+org.eclipse.jst.jee.server\:JSTLEL=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\JSTLEL
+org.eclipse.jst.jee.server\:DemoApp=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\DemoApp
+org.eclipse.jst.j2ee.server\:springannotations=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\springannotations
+org.eclipse.jst.jee.server\:servletdemo1=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\servletdemo1
+org.eclipse.jst.j2ee.server\:spring-mvc-form=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\spring-mvc-form
+org.eclipse.jst.jee.server\:somename=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\somename
+org.eclipse.jst.jee.server\:DemoServletFilter=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\DemoServletFilter
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\rkondala\\.m2\\repository\\org\\springframework\\spring-web\\5.0.2.RELEASE\\spring-web-5.0.2.RELEASE.jar=C\:\\Users\\rkondala\\Desktop\\apache-tomcat-9.0.76\\wtpwebapps\\spring-mvc-form\\WEB-INF\\lib\\spring-web-5.0.2.RELEASE.jar

@@ -1,0 +1,19 @@
+package com.spring.orm.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.spring.jdbc.dao.StudentDao;
+
+public class Studentserviceimpl implements Studentservice{
+
+	@Autowired 
+	private StudentDao studentDao;
+	
+	
+	@Override
+	public void save() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

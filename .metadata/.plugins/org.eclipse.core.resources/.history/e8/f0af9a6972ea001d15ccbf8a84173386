@@ -1,0 +1,20 @@
+package object_oriented_programming;
+
+public class Binumber {
+
+	int add(int a, int b) {
+		System.out.println(a+b);
+		
+		return a+b;
+	}
+	int multiply (int c, int d) 
+	{
+		return c*d;
+		
+	}
+	int doud(int e)
+	{
+		return e*e;
+	}
+	
+}

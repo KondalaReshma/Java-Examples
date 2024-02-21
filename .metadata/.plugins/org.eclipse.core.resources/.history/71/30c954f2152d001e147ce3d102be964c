@@ -1,0 +1,22 @@
+package com.telsuko.DemoHib;
+
+import java.sql.Savepoint;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       Alien telsuko  = new Alien();
+       telsuko.setAid(101);
+       telsuko.setAname("reshma");
+       telsuko.setColor("green");
+       
+       Save(telsuko);
+       
+       
+    }
+}

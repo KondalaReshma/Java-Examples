@@ -1,0 +1,12 @@
+package object_oriented_programming;
+import java.util.*;
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		String str ="heloo";
+		System.out.println(str.concat("reshma"));
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package object_oriented_programming;
+
+public class MotorBike {
+	 MotorBike()
+	 {
+		 this(5);
+	 }
+	 MotorBike(int speed)
+	 {
+		this.speed = speed;
+		System.out.println(speed);
+	 }
+	  int speed;
+	void start() 
+	{
+		System.out.println("motorbike started");
+	}
+	void setSpeed(int speed) 
+	{
+		this.speed=speed;
+		System.out.println(speed);
+	}
+    int getSpeed() 
+    {
+    	System.out.println(speed);
+    	return this.speed;
+    }
+
+}

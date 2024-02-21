@@ -1,0 +1,184 @@
+package com.springorm.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.studytonight.dao.UserDao;
+
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Autowired
+	private UserDao userDao;
+	
+	public void save() {
+		userDao.save();
+	}
+}
+// pom.xml
+
+This file contains all the dependencies of this project such as spring jars, servlet jars, etc. Put these dependencies into your project to run the application.
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.studytonight</groupId>
+	<artifactId>springhibernate</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+
+		<!-- MySQL -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-dbcp</artifactId>
+			<version>9.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.195</version>
+		</dependency>
+	</dependencies>
+	<properties>
+		<spring.version>5.2.8.RELEASE</spring.version>
+		<hibernate.version>5.4.1.Final</hibernate.version>
+		<mysql.connector.version>5.1.45</mysql.connector.version>
+
+	</properties>
+</project>
+Run the Application
+After successfully completing the project and adding the dependencies run the application and it will save the data into the table that you can verify by login into your database.
+
+← Hibernate Configuration
+Spring Security Introduction →
+ Want to learn coding?
+Try our new interactive courses.
+C language
+C Language CourseNEW
+ 115+ Coding Exercise
+ 
+GO lang course
+GO Language Course
+ 4.5 (50+) | 500+ users
+ 
+Javascript course
+JS Language Course
+ 4.5 (343+) | 6k users
+ 
+CSS course
+CSS Language Course
+ 4.5 (306+) | 3.3k users
+ 
+HTML course
+HTML Course
+ 4.7 (2k+ ratings) | 13.5k learners
+ Over 20,000+ students enrolled. 
+About the author:
+
+mirfan
+I am a Java developer by profession and Java content creator by passion. I have over 5 years of experience in Java development and content writing. I like writing about Java, related frameworks, Spring, Springboot, etc.
+ Learn to Code
+Learn and practice coding side-by-side.
+ NEW
+
+C language Course
+115+ coding exercises
+
+Javascript Course
+85+ coding exercises
+Ezoic
+studytonight.com  
+   
+
+About Us
+
+Testimonials
+
+Privacy Policy
+
+Terms
+
+Contact Us
+
+Suggest
+
+We are Hiring!
+
+© 2023 Studytonight Technologies Pvt. Ltd.
+
+  Learn Coding (for beginners)
+  Tutorial Library
+  Interview Tests
+  Curious
+  Practice Coding
+Coding Courses
+Learn Go Lang
+Learn JavaScript
+Learn CSS
+Learn HTML
+Resources
+C Language
+C++/STL
+Java
+DBMS
+Python
+PHP
+Android
+Game Development
+Data Structure & Alog.
+Operating System
+Computer Network
+Computer Architecture
+Docker
+GO Language
+GIT Guide
+Linux Guide
+More...
+Interview Tests
+Java Interview Tests
+Python Interview Tests
+DBMS Interview Tests
+Linux Interview Tests
+Aptitude Tests
+GATE 2022 Tests
+More...
+Projects/Programs
+Python Projects
+C Projects
+Python Programs
+C Programs
+C++ Programs
+Java Programs
+

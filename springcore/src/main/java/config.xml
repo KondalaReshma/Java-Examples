@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="
+ http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframewwork.org/schema/context
+ http://www.springframewwork.org/schema/context/spring-context.xsd">
+
+
+
+	<bean class="com.springcore.Student" name="student1">
+		<property name="studentId">
+			<value> 1000</value>
+		</property>
+
+
+		<property name="studentName">
+			<value> Reshma  </value>
+		</property>
+
+		<property name="studentAddress">
+			<value>Vizag </value>
+		</property>
+
+
+	</bean>
+
+
+	<bean class="com.springcore.Student" name="student2">
+		<property name="studentId">
+			<value> 1002</value>
+		</property>
+
+
+		<property name="studentName">
+			<value> penky </value>
+		</property>
+
+		<property name="studentAddress">
+			<value> vizag </value>
+		</property>
+
+
+	</bean>
+
+	<bean class="com.springcore.Student" name="student3">
+		<property name="studentId">
+			<value> 1003</value>
+		</property>
+
+
+		<property name="studentName">
+			<value> rocket </value>
+		</property>
+
+		<property name="studentAddress">
+			<value> jeypore </value>
+		</property>
+		
+		
+		
+		
+
+
+	</bean>
+	
+	
+	
+	
+	
+	
+	
+	<bean class="com.springcore.Student" name="student4">
+		<property name="studentId">
+			<value> 1004</value>
+		</property>
+
+
+		<property name="studentName">
+			<value> saikishore </value>
+		</property>
+
+		<property name="studentAddress">
+			<value> vizag </value>
+		</property>
+		
+		
+		
+		
+
+
+	</bean>
+
+
+</beans>
+ 
+ 

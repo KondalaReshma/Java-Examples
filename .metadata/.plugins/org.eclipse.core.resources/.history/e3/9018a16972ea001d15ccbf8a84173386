@@ -1,0 +1,19 @@
+package object_oriented_programming;
+
+public class books {
+	 private int noOfCopies;
+	 void setNoOfCopies(int noOfCpoies) {
+		 this.noOfCopies=noOfCopies;
+	 }
+  
+	int increaseNoCopies(int howmuch) {
+		setNoOfCopies(this.noOfCopies+howmuch);
+		
+	}
+	int decreaseNoCopies(int howmuch) {
+		setNoOfCopies(this.noOfCopies - howmuch);
+		
+	}
+	
+	
+}

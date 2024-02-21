@@ -1,0 +1,5 @@
+package com.springorm.models;
+
+public class User {
+
+}

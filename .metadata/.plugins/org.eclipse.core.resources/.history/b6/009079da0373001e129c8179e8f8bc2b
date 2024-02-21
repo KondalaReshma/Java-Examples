@@ -1,0 +1,5 @@
+package com.springorm.service;
+
+public class UserServiceImpl {
+
+}

@@ -1,0 +1,13 @@
+package object_oriented_programming;
+
+public class isPrimeRunner {
+
+	public static void main(String[] args) {
+		
+		isPrimeNumber number1 = new  isPrimeNumber(5);
+		
+		System.out.print(number1.isPrime());
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.spring.orm.dao;
+
+import org.springframework.orm.hibernate5.HibernateOperations;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.mysql.cj.Session;
+import com.mysql.cj.xdevapi.SessionFactory;
+import com.spring.orm.entities.Student;
+public class StudentDao {
+
+	private SessionFactory sessionFactory;
+	
+	
+   
+	
+	
+	public StudentDao() {
+		
+	}
+	@Transactional
+	public int insert(Student  student)
+	{
+	
+         int i =		(Integer)((HibernateOperations) this.sessionFactory).save(student);
+		return i;
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+	
+	
+	
+	
+}

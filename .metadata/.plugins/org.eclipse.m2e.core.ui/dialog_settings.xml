@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\rkondala\eclipse-workspace\springmvcex\pom.xml"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\springorm\src\main\java\com\spring\orm\App.java"/>
+			<item value="C:\Users\rkondala\Downloads\Springboottestdemo\src\main\java\com\rest\jpa\app\controllers\CustomerController.java"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\springcore\src\main\java\config.xml"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\DemoSpringMVC\com\telusko\AddController.java"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\DemoMVC\src\main\java\com\telusko\DemoMVC\App.java"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\JSTLEL\src\main\java\com\telusko\DemoServlet.java"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\Multithreading"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\setterinjecitoninspring\src\main\resources\beans.xml"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\example\src"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\junitexample\src\junitexample\TEST.java"/>
+			<item value="C:\Users\rkondala\eclipse-workspace\first\src\main\java\hello.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\rkondala\Downloads\database-demo1"/>
+			<item value="C:\Users\rkondala\Downloads\database-demo"/>
+			<item value="C:\Users\rkondala\Downloads\springboot-in-10-steps"/>
+			<item value="C:\Users\rkondala\Downloads\springboot-in-10-min"/>
+			<item value="C:\Users\rkondala\Downloads\Case-Study"/>
+			<item value="C:\Users\rkondala\Downloads\customerregistrationdemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,77 @@
+package com.spring.orm;
+
+
+import java.util.Properties;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+
+import com.spring.jdbc.dao.StudentDao;
+import com.spring.jdbc.dao.StudentDaoimpl;
+
+
+@Configuration
+public class config {
+	
+	
+	@Value("${hibernate.packagesToScan}")
+    private String packagesToScan;
+
+    @Value("${hibernate.dialect}")
+    private String hibernateDialect;
+
+    @Value("${hibernate.show_sql}")
+    private String hibernateShowSql;
+
+    @Bean
+    public LocalSessionFactoryBean sessionFactory() {
+        LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
+        sessionFactory.setDataSource(getDataSource());
+        sessionFactory.setPackagesToScan(packagesToScan);
+        sessionFactory.setHibernateProperties(hibernateProperties());
+        return sessionFactory;
+    }
+
+	
+	@Bean("ds")
+	public DataSource getDataSource()
+	{
+		
+		DriverManagerDataSource ds  = new DriverManagerDataSource();
+		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		ds.setUrl("jdbc:mysql://localhost:3306/springjdbc");
+		ds.setUsername("root");
+		ds.setPassword("Welcome2evoke@1234");
+		return ds;
+
+}
+	@Autowired
+    private LocalSessionFactoryBean sessionFactory;
+
+    @Bean
+    public HibernateTransactionManager transactionManager() {
+        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
+        transactionManager.setSessionFactory(sessionFactory.getObject());
+        return transactionManager;
+    }
+    
+    
+    private Properties hibernateProperties() {
+        Properties properties = new Properties();
+        properties.setProperty("hibernate.dialect", hibernateDialect);
+        properties.setProperty("hibernate.show_sql", hibernateShowSql);
+        return properties;
+    }
+    
+    
+
+	
+	
+}

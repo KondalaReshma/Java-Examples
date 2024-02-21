@@ -1,0 +1,13 @@
+package object_oriented_programming;
+
+public class BinumberRunner {
+
+	public static void main(String[] args) {
+		Binumber numbers = new Binumber();
+		numbers.add(2, 3);
+		numbers.multiply(4,8);
+		numbers.doud(2);
+
+	}
+
+}

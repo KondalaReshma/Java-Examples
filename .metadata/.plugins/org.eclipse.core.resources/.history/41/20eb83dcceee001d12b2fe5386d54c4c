@@ -1,0 +1,25 @@
+package firstJavaProject;
+import java.util.StringTokenizer;  
+public class AverageCalculator {
+	
+	
+	int avg=0,sum=0;
+	
+	public static void main(String args[]) { 
+		StringTokenizer st = new StringTokenizer("98#36#45#89#","#");  
+		
+		System.out.println(st.countTokens());
+		int tokens = st.countTokens();
+		while (st.hasMoreTokens())   
+	    {    
+			 tokens=tokens.nextToken();
+            sum =Integer.parseInt(tokens);
+	        System.out.println(st.nextElement()); 
+	        
+	        
+	        
+	       
+	    }    
+
+}
+}

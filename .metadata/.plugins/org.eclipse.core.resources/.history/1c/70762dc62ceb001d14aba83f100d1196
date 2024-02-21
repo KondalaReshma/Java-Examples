@@ -1,0 +1,8 @@
+package interfaces;
+
+public interface ComplexAlogoritm {
+	 int Alogorithm(int n1,int n2) {
+		 
+	 }
+
+}

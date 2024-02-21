@@ -1,0 +1,14 @@
+package object_oriented_programming;
+import java.util.*;
+public class StringOperations {
+
+	public static void main(java.lang.String[] args) {
+		java.lang.String str = "hi";
+		System.out.println(str.concat("hello"));
+		
+		
+		
+
+	}
+
+}

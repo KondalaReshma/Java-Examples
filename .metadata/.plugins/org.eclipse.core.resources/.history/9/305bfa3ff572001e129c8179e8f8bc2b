@@ -1,0 +1,24 @@
+package com.spring.orm.dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+import com.spring.orm.entities.Student;
+@Repository
+public class StudentDaoimpl  implements StudentDao{
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@Transactional
+	public void save() {
+		
+		Session session = sessionFactory.getCurrentSession();
+		Student student = new Student(1,"all","hyd");
+		session.save(student);
+		
+	}
+
+}

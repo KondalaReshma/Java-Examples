@@ -1,0 +1,40 @@
+package object_oriented_programming;
+import java.util.Scanner;
+public class MenuRunner {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number1");
+		int Number1= sc.nextInt();
+		System.out.println("the number u entered " + Number1);
+		System.out.println("Enter the Number2");
+		int Number2= sc.nextInt();
+		System.out.println("Choices Available Are");
+		System.out.println("1-Add");
+		System.out.println("1-Subtract");
+		System.out.println("1-Multiply");
+		System.out.println("1-Divide");
+		System.out.println("Enter choice");
+		int Choice = sc.nextInt();
+		performingoperationsusingnested(Number1, Number2, Choice);
+
+}
+
+	private static void performingoperationsusingnested(int Number1, int Number2, int Choice) {
+		if(	Choice == 1) {
+			System.out.println("Result " + (Number1+ Number2));
+		}
+		else if(Choice == 2) {
+		System.out.println("Result " + (Number1 -  Number2));
+		
+	     }
+		else if(Choice == 3) {
+			System.out.println("Result " + (Number1 *  Number2));
+			
+		}
+		else
+		{
+			System.out.println("Result " + (Number1  / Number2));
+			
+		}
+	}}

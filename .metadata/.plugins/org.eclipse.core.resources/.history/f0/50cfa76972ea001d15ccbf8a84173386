@@ -1,0 +1,15 @@
+package object_oriented_programming;
+
+public class BooksRunner {
+
+	public static void main(String[] args) {
+		book java= new book();
+		book c = new book();
+		book computer = new book();
+		java.no_of_copies=10;
+		c.no_of_copies=20;
+		computer.no_of_copies=50;
+
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="expressionHistory">
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=onetomanydemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.app.jpa{OnetomanydemoApplication.java[OnetomanydemoApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=customerregistrationdemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.app.jpa{CustomerregistrationdemoApplication.java[CustomerregistrationdemoApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=irctc/C:\/Users\/rkondala\/.m2\/repository\/org\/beanshell\/bsh\/2.0b4\/bsh-2.0b4.jar=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/org.beanshell=/=/maven.artifactId=/bsh=/=/maven.version=/2.0b4=/=/maven.scope=/test=/=/maven.pomderived=/true=/&amp;lt;bsh.util(AWTConsole.class[AWTConsole&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=irctc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.cts.irctc{IrctcApplication.java[IrctcApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Telusko/src\/main\/java&amp;lt;com.reshma.Telusko{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Backend/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.freelanceapp{BackendApplication.java[BackendApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=manytoonedemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.app.jpa{ManytoonedemoApplication.java[ManytoonedemoApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springcore/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.springcore.springcore{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=DemoApp/C:\/Users\/rkondala\/Desktop\/apache-tomcat-9.0.76\/lib\/ecj-4.20.jar=/javadoc_location=/https:\/\/tomcat.apache.org\/tomcat-9.0-doc\/api\/=/=/owner.project.facets=/jst.web=/&amp;lt;org.eclipse.jdt.internal.compiler.tool(EclipseCompilerImpl.class[EclipseCompilerImpl&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springorm/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.spring.orm{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="671"/>
+			<item key="DIALOG_Y_ORIGIN" value="188"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

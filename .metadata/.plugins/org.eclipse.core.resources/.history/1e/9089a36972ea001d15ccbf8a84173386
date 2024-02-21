@@ -1,0 +1,17 @@
+package object_oriented_programming;
+
+public class MotorclassRunner {
+
+	public static void main(String[] args) {
+		 
+		
+	     MotorBike duke = new MotorBike();
+	     MotorBike honda = new MotorBike(100);
+	     duke.getSpeed();
+	    
+	    
+	     
+	}
+
+}
+ 
